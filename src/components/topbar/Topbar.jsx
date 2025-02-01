@@ -5,7 +5,7 @@ import PersonIcon from '@mui/icons-material/Person';
 
 const Topbar = ({menuOpen, setMenuOpen}) => {
   return (
-    <div className= {"topbar " + (menuOpen && "active")} id='topbar'>
+    <div className={"topbar " + (menuOpen && "active")} id='topbar'>
 
       <div className="wrapper">
 
